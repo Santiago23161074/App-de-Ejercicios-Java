@@ -53,6 +53,8 @@ Android Studio
 - La contraseña está codificada directamente en el archivo Java. Para mayor seguridad, en una app real debería usarse autenticación en servidor.
 
 - El proyecto no incluye lógica en MenuActivity.java (el cual debes crear si deseas continuar el flujo).
+## Vista
+![Image](https://github.com/user-attachments/assets/7aa570fb-f621-473f-b5fc-58a5c3ad8f69)
 ---
 # 📱Menu de Programas
 Bienvenido al Visor de Programas 🎯, una aplicación Android que sirve como menú principal para acceder a diferentes ejercicios o módulos de práctica. Cada botón representa un ejercicio y permite navegar fácilmente entre las actividades.
