@@ -1,4 +1,4 @@
-# App-de-Ejercicios-Java
+![image](https://github.com/user-attachments/assets/b3e936e9-2150-4450-a55e-f7433fb9e8bc)# App-de-Ejercicios-Java
 # Pantalla de Inicio de Sesión en Android
 Este proyecto es una aplicación básica de Android que presenta una pantalla de inicio de sesión. El usuario debe ingresar un correo electrónico válido y una contraseña específica para poder acceder al siguiente menú (MenuActivity).
 ---
@@ -91,6 +91,9 @@ Bienvenido al Visor de Programas 🎯, una aplicación Android que sirve como me
 - Hay una imagen en la parte superior (menu_icon) para embellecer la interfaz 🎨.
 
 - Cada tarjeta tiene un diseño uniforme: márgenes, esquinas redondeadas, elevación y texto centrado.
+
+## Vista 
+![Image](https://github.com/user-attachments/assets/118c48d8-ff0e-4aff-bf22-223b0af760b8)
 ---
 # 🐶🐱🐭 Ejercicio1Activity – Visor de Programas 
 Este módulo de la app Visor de Programas muestra una actividad interactiva donde el usuario puede seleccionar uno o varios animales de una lista de opciones (Perro, Gato y Ratón) mediante CheckBox ✅, ver su selección en pantalla 🧾 y limpiar o regresar al menú principal.
@@ -130,6 +133,8 @@ Esta actividad (Ejercicio1Activity) permite al usuario:
 - Crea un Intent para volver a la actividad MenuActivity.
 
 - Finaliza la actividad actual para evitar volver con el botón "Atrás".
+## Vista
+![Image](https://github.com/user-attachments/assets/5289db99-18d5-4edb-9684-f5d89178490c) 
 
 ---
 # 📚 Ejercicio2Activity – Cálculo de Promedio 📊
@@ -184,6 +189,8 @@ La actividad Ejercicio2Activity permite al usuario:
 - Se utiliza try-catch para evitar que la app se cierre si hay errores al ingresar los datos.
 
 - Esta actividad no permite navegar directamente al menú principal, solo regresa a la actividad anterior.
+  ## Vista
+  ![Image](https://github.com/user-attachments/assets/d82172c1-0bbb-4e99-84a1-c81d11d02938)
 ---
 # 🎯 Ejercicio3Activity – Selector de Color con RadioButtons 🎨
 Esta actividad es parte de la aplicación Visor de Programas y permite al usuario seleccionar un color (Rojo, Verde o Azul) utilizando botones de opción (RadioButtons) y ver cuál ha sido elegido. También cuenta con un botón para regresar a la pantalla anterior.
@@ -229,7 +236,8 @@ Esta actividad es parte de la aplicación Visor de Programas y permite al usuari
 - El mensaje se muestra en el TextView textResultado, que se hace visible en ese momento.
 
 Al presionar el botón Regresar, la actividad se cierra con finish() y el usuario vuelve a la pantalla anterior (probablemente el menú principal).
-
+## Vista
+![Image](https://github.com/user-attachments/assets/14cd22e6-67aa-41ab-893b-e05945b24b29)
 ---
 # 👥 Ejercicio4Activity – Lista de Nombres por Curso 🧑‍🏫📋
 Esta actividad de la app Visor de Programas permite al usuario visualizar listas de nombres correspondientes a dos cursos distintos. Se puede seleccionar un nombre de la lista, vaciarla, o regresar a la pantalla principal.
@@ -270,6 +278,8 @@ Esta actividad de la app Visor de Programas permite al usuario visualizar listas
 - Botón Vaciar: Limpia por completo la lista y muestra "Selecciona un nombre".
 
 - Botón Regresar: Cierra esta pantalla y regresa a la anterior.
+## Vista
+![Image](https://github.com/user-attachments/assets/3d0cd873-4518-4de1-8264-8f7c04ebbf84)
 ---
 # 🔢 Ejercicio5Activity – Números Pares e Impares con Spinner 🎯
 Esta actividad forma parte de la aplicación Visor de Programas y permite al usuario visualizar y seleccionar números pares o impares utilizando un Spinner (menú desplegable). También puede vaciar la lista o regresar a la pantalla anterior.
@@ -320,6 +330,8 @@ Esta actividad forma parte de la aplicación Visor de Programas y permite al usu
 
 
 - El botón "Regresar" simplemente cierra la actividad con finish() y devuelve al usuario a la pantalla anterior.
+## Vista
+![Image](https://github.com/user-attachments/assets/f91bf60e-db8c-41be-bf8f-5bbffcc6f78b)
 ---
 # 💰 Ejercicio6Activity – Cotizador de Servicios Extra 🧾🧮
 Esta pantalla permite calcular el precio total de un producto con servicios opcionales adicionales, usando botones tipo Toggle para marcar lo que el cliente desea incluir.
@@ -372,6 +384,8 @@ El sistema calcula el total a pagar en función de lo que el usuario haya selecc
 
 - Si hay errores de formato (por ejemplo, texto en vez de números), el total mostrará "Error en los precios".
 
+## Vista 
+![Image](https://github.com/user-attachments/assets/d6f0b02a-b412-45dc-be9d-bc51e1d1f81a)
 ---
 # 🔢 Ejercicio7Activity – Selector Numérico Personalizado 🎯
 Esta pantalla permite al usuario seleccionar un número del 0 al 10 con pasos de 2 en 2 usando un componente NumberPicker. Además, muestra el número seleccionado en pantalla y permite regresar al menú anterior.
@@ -402,8 +416,10 @@ Esta pantalla permite al usuario seleccionar un número del 0 al 10 con pasos de
 - Cada vez que se cambia el valor del selector, se actualiza el texto con el nuevo número.
 
 - El botón Regresar cierra la actividad actual usando finish().
+## Vista
+![Image](https://github.com/user-attachments/assets/434a5fab-a7d9-4d8e-8d2c-27a595ee5baa)
 ---
-#💰 Ejercicio8Activity – Calculadora de Totales con IVA 🧾
+# 💰 Ejercicio8Activity – Calculadora de Totales con IVA 🧾
 Esta pantalla permite al usuario ingresar una cantidad de unidades y un precio unitario para calcular el total sin IVA y con IVA (16%). Se muestran los resultados y se valida que los datos ingresados sean válidos.
 
 ## 🎯 ¿Qué hace esta pantalla?
@@ -446,7 +462,8 @@ Calcula:
 - Se muestran ambos valores con 2 decimales.
 
 - Si hay un error al ingresar los datos (campos vacíos o no numéricos), se muestra un Toast con un mensaje de advertencia.
-
+## Vista 
+![Image](https://github.com/user-attachments/assets/acf2dea6-0a8b-4e4d-b009-bfb0f305dd81)
 ---
 # 👁️ Ejercicio9Activity – Control de Visibilidad de TextViews 🔘
 Esta actividad permite ocultar y mostrar dos etiquetas de texto (TextView) por separado mediante botones específicos. Ideal para aprender a manipular la visibilidad de componentes en Android.
@@ -494,6 +511,8 @@ setVisibility(View.VISIBLE);  // Lo muestra nuevamente
 - Igual con la ciudad.
 
 - Botón Regresar te lleva a la pantalla anterior.
+## Vista 
+![Image](https://github.com/user-attachments/assets/acb589b2-6509-4292-9969-c12e28290f2c)
 
 ---
 
@@ -535,8 +554,8 @@ Esta actividad permite realizar una división entre dos números, validando que 
 - Números negativos: No se permiten.
 
 - División entre 0: Se muestra un mensaje de error.
----
-# video
+## Vista 
+![Image](https://github.com/user-attachments/assets/84955617-edaa-4eac-9f07-095ce89df8be)
 ---
 #  Autores
 - Méndez García Ángel de Jesús
