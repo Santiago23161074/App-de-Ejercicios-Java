@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b3e936e9-2150-4450-a55e-f7433fb9e8bc)# App-de-Ejercicios-Java
+# App-de-Ejercicios-Java
 # Pantalla de Inicio de Sesión en Android
 Este proyecto es una aplicación básica de Android que presenta una pantalla de inicio de sesión. El usuario debe ingresar un correo electrónico válido y una contraseña específica para poder acceder al siguiente menú (MenuActivity).
 ---
