@@ -555,6 +555,7 @@ Esta actividad permite realizar una división entre dos números, validando que 
 
 - División entre 0: Se muestra un mensaje de error.
 ## Vista 
+- Vista ejercicio 10
 ![Image](https://github.com/user-attachments/assets/84955617-edaa-4eac-9f07-095ce89df8be)
 ---
 #  Autores
